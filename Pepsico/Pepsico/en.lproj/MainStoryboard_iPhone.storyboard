@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -174,7 +174,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xix-Rz-UbV">
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1FQ-sx-d0Z"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="IpadBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1FQ-sx-d0Z"/>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="450104" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RZb-Pi-2ve">
                                         <constraints>
                                             <constraint firstAttribute="width" constant="227" id="HG7-bc-1W5"/>
@@ -220,14 +220,15 @@
                                     <constraint firstItem="SKS-aP-dva" firstAttribute="top" secondItem="Xix-Rz-UbV" secondAttribute="top" constant="183" id="cPA-Iu-NSM"/>
                                     <constraint firstItem="RZb-Pi-2ve" firstAttribute="top" secondItem="Xix-Rz-UbV" secondAttribute="top" constant="135" id="hAt-Hq-B2O"/>
                                     <constraint firstItem="s4n-NX-WQl" firstAttribute="top" secondItem="Xix-Rz-UbV" secondAttribute="top" constant="229" id="iCZ-HN-vgq"/>
-                                    <constraint firstItem="1FQ-sx-d0Z" firstAttribute="centerX" secondItem="s4n-NX-WQl" secondAttribute="centerX" type="default" id="mlJ-xs-Sju"/>
                                     <constraint firstItem="1FQ-sx-d0Z" firstAttribute="bottom" secondItem="Xix-Rz-UbV" secondAttribute="bottom" type="default" id="qLm-03-N4k"/>
                                     <constraint firstItem="IQF-D2-aGd" firstAttribute="top" secondItem="Xix-Rz-UbV" secondAttribute="top" constant="51" id="s2E-xC-i1D"/>
                                     <constraint firstItem="1FQ-sx-d0Z" firstAttribute="leading" secondItem="Xix-Rz-UbV" secondAttribute="leading" type="default" id="uo2-od-6EW"/>
+                                    <constraint firstItem="SKS-aP-dva" firstAttribute="centerX" secondItem="1FQ-sx-d0Z" secondAttribute="centerX" type="default" id="v8o-es-guB"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="Xix-Rz-UbV" firstAttribute="centerX" secondItem="QFS-2u-1Q0" secondAttribute="centerX" type="default" id="AMl-9q-9kC"/>
                             <constraint firstItem="Xix-Rz-UbV" firstAttribute="leading" secondItem="QFS-2u-1Q0" secondAttribute="leading" type="default" id="D5b-BT-dbw"/>
                             <constraint firstItem="Xix-Rz-UbV" firstAttribute="bottom" secondItem="QFS-2u-1Q0" secondAttribute="bottom" type="default" id="Fd7-Tc-fZ5"/>
                             <constraint firstItem="Xix-Rz-UbV" firstAttribute="centerY" secondItem="QFS-2u-1Q0" secondAttribute="centerY" type="default" id="MJs-dM-gWw"/>
@@ -388,8 +389,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IpadBackground.jpg" width="1004" height="768"/>
         <image name="Logo.png" width="219" height="50"/>
-        <image name="background.jpg" width="320" height="480"/>
         <image name="list.png" width="20" height="20"/>
     </resources>
     <classes>
